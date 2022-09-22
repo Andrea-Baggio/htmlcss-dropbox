@@ -20,11 +20,13 @@ nav {
 .nav-left {
     display: flex;
     flex: 1 1 50%;
+    align-items: center;
 }
 
 .nav-bar-logo {
     width: 90px;
     height: fit-content;
+    display: flex;
 }
 
 .nav-bar-logo img {
@@ -33,6 +35,7 @@ nav {
 
 .ul-nav-left, .ul-nav-right {
     display: flex;
+    align-items: center;
 }
 
 .nav-bar-left, a, li {
@@ -51,7 +54,12 @@ nav {
     justify-content: flex-end;
 }
 
-.nav-bar-left, a, li {
+.nav-bar-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-right, a, li {
     text-decoration: none;
     list-style: none;
     color: rgb(74, 74, 74);
@@ -65,7 +73,6 @@ nav {
     padding: .4em .9em;
     border: 1px solid white;
     display: flex;
-    align-content: center;
 }
 
 /* header */
