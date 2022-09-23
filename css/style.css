@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* nav */
@@ -13,6 +13,8 @@ html {
 /* nav-left */
 
 nav {
+    margin: auto;
+    max-width: 1300px;
     padding: 1em 1em;
     display: flex;
 }
@@ -79,30 +81,35 @@ nav {
 
 header {
     background-color: rgb(180, 208, 231);
+    margin: auto;
+    max-width: 1300px;
 }
 
 .header-container {
     margin: auto;
-    max-width: 810px;    
+    max-width: 800px;
 }
 
-.header-small-container {
-    display: flex;    
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 25px;
-}
-
-.header-title {
-    font-size: 3em;
+.title {
+    font-size: 2.8em;
     font-weight: 900;
-    max-width: 80%;
-    padding: 50px 0 35px 0;
+    padding: 35px 0;
 }
 
-.header-description, .header-apostille {
-    font-size: 11px;
-    max-width: 30%;
+.small-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+.text {
+    flex: 1 1 190px;
+    font-size: .8em;
+    line-height: 1.4em;
+}
+
+.header-button {
+    padding: 20px 0;
 }
 
 .header-button button {
@@ -115,5 +122,18 @@ header {
 
 .header-icon {
     font-size: 2em;
-    max-width: 10%;
+    padding: 30px 0px 10px;
+}
+
+/* header image */
+
+.image {
+    flex: 1 1 450px;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+    position: absolute;
+    right: -17px;
 }
