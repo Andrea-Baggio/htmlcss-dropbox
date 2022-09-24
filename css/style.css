@@ -8,7 +8,9 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-
+body {
+    height: 2000px;
+}
 
 /* header */
 
@@ -71,24 +73,21 @@ header {
     right: -17px;
 }
 
-
-
-
 /* main */
+/* main part1 */
 
 .part1-container {
     margin: auto;    
-    max-width: 650px; 
-    margin-top: 95px;   
+    max-width: 750px;    
+    margin-top: 95px;
 }
 
 .part1-title {
     font-size: 1.7em;
-    padding: 15px 0;
 }
 
 .part1-selectors {
-    padding: 40px 0;
+    padding: 35px 0;
     font-size: .8em;
     display: flex;
 }
@@ -103,30 +102,34 @@ header {
 
 /* cards */
 
-.part1-small-container {
+.card-container {
+    margin: auto;    
+    max-width: 750px; 
     display: flex;
     justify-content: space-between;
 }
 
-.part1-content {
-    width: 220px;
-
-    height: fit-content;
-    border: 1px solid rgb(39, 39, 39);
+.card {
+    border: 1px solid rgba(86, 86, 86, 0.452);
+    max-width: 30%;
 }
 
-.card-container {
+.card-small-container {
     max-width: 80%;
     margin: auto;
     font-size: .7em;
+    margin-bottom: 1.5em;
 }
+
+/* cards content */
 
 .pack {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
-    font-size: .8em;
+    border-bottom: 1px solid rgba(86, 86, 86, 0.452);
+    font-size: .7em;
+    padding: .5em 0;
 }
 
 .pack > * {
@@ -134,27 +137,37 @@ header {
 }
 
 .pack-name {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 30px 0;
+    line-height: 25px;
 }
 
-.pack-info {
-    height: fit-content;
+.thin {
+    font-weight: 100;
+}
+
+.pack-info-item {
+    padding: 7px 0;
 }
 
 .free-trial-button {
-    background-color: yellow;
-    height: 60px;
+    padding: 27px 0 16px;
 }
 
-.pack-apostille {
-    background-color: pink;
-    height: 30px;
+.free-trial-button button{
+    color: white;
+    background-color: rgb(0, 97, 255);
+    border: 1px solid white;
+    padding: .9em .9em;
+    font-size: .9em;
+    width: 100%; 
 }
 
-.perks-list {
-    background-color: purple;
-    height: 120px;
+.divided {
+    color: rgba(86, 86, 86, 0.452);
+    padding: 20px 0 35px;
+}
+
+.perk-item {
+    padding: 10px 0;
+    margin-left: 12px;
 }

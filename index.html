@@ -12,6 +12,7 @@
 
         <!-- font awsome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css">
 
         <!-- styles -->
         <link rel="stylesheet" href="css/style.css">
@@ -56,73 +57,171 @@
 
         <main>
             <section class="part1">
+                
                 <div class="part1-container">
-
                     <h1 class="part1-title">Trova il piano business che fa per te</h1>
 
                     <div class="part1-selectors">
-                        
+                            
                         <input name="choice" id="mensile" type="radio">
                         <label for="mensile">Fatturazione mensile</label>
                         <input name="choice" id="annuale" type="radio"> 
                         <label for="annuale">Fatturazione annuale</label>
-                         
+                            
                     </div>
-
-                    <!-- offer cards -->
-                    <div class="part1-small-container">
-                        <div class="part1-content">
-                            <div class="pack">
-                                    <i class="fa-solid fa-user"></i> <span>Singolo</span>
-                                </div>
-
-                            <div class="card-container">                          
-                                <div class="pack-name">
-                                    <h3>Professional</h3>
-                                    <div>&#8364; 12.00</div>
-                                    <div>/mese</div>
-                                </div>
-
-                                <div class="pack-info">
-                                    <div class="pack-info-item">
-                                        <i class="fa-solid fa-user"></i>
-                                        <span>1 utente</span>
-                                    </div>
-
-                                    <div class="pack-info-item">
-                                        <i class="fa-solid fa-folder"></i>
-                                        <span>5 TB di spazio di archiviazione sicuro</span>
-                                    </div>
-
-                                    <div class="pack-info-item">
-                                        <i class="fa-sharp fa-solid fa-share-nodes"></i>
-                                        <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
-                                    </div>
-
-                                </div>
-
-                                <div class="free-trial-button">
-                                    <button>Prova gratis per 30 giorni</button>
-                                </div>
-
-                                <div class="pack-apostille">
-                                    oppure <a href="#">acquista ora</a>
-                                </div>
-
-                                <ul class="perks-list">Punti salienti del piano
-                                    <li class="perk-item">Invia file fino a 100 MB con Dropbox Transfert</li>
-
-                                    <li class="perk-item">Cartelle offline su dispositivi mobili</li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                    </div>
-
                 </div>
+
+                <!-- cards -->
+
+                <div class="card-container">
+                    <div class="card">
+                        <div class="pack">
+                            <i class="fa-solid fa-user"></i> <span>Singolo</span>
+                        </div>
+                        <div class="card-small-container">
+                            <div class="pack-name">
+                                <h2>Professional</h2>
+                                <h4>&#8364; 12.00</h4>
+                                <div class="thin">/mese</div>
+                            </div>
+
+                            <div class="pack-info">
+                                <div class="pack-info-item">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>1 utente</span>
+                                </div>
+
+                                <div class="pack-info-item">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>5 TB di spazio di archiviazione sicuro</span>
+                                </div>
+
+                                <div class="pack-info-item">
+                                    <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                                    <span>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                                </div>
+                            </div>
+
+                            <div class="free-trial-button">
+                                <button>Prova gratis per 30 giorni</button>
+                            </div> 
+                            
+                            <div class="pack-apostille">
+                                oppure <a href="#">acquista ora</a>
+                            </div>
+
+                            <div class="divided">________</div>
+
+                            <ul class="perks-list"> <strong>Punti salienti del piano</strong> 
+                                <li class="perk-item">Invia file fino a 100 MB con Dropbox Transfert</li>
+
+                                <li class="perk-item">Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>                            
+                    </div>
+
+                    <div class="card">
+                        <div class="pack">
+                            <i class="fa-solid fa-user-plus"></i><span>Team</span>
+                        </div>
+                        <div class="card-small-container">
+                            <div class="pack-name">
+                                <h2>Advanced</h2>
+                                <h4>&#8364; 18.00</h4>
+                                <div class="thin">/utente/mese</div>
+                            </div>
+
+                            <div class="pack-info">
+                                <div class="pack-info-item">
+                                    <i class="fa-solid fa-user-plus"></i>
+                                    <span>3 o più utenti</span>
+                                </div>
+
+                                <div class="pack-info-item">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>Tutto lo spazio di cui ha bisogno il team</span>
+                                </div>
+
+                                <div class="pack-info-item">
+                                    <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                                    <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                                </div>
+                            </div>
+
+                            <div class="free-trial-button">
+                                <button>Prova gratis per 30 giorni</button>
+                            </div> 
+                            
+                            <div class="pack-apostille">
+                                oppure <a href="#">acquista ora</a>
+                            </div>
+
+                            <div class="divided">________</div>
+
+                            <ul class="perks-list"> <strong>Punti salienti del piano</strong> 
+                                <li class="perk-item">Nessun limite di spazio per i file</li>
+
+                                <li class="perk-item">Cartelle offline su dispositivi mobili</li>
+
+                                <li class="perk-item">Risparmio del 50&#37; rispetto alle iscrizioni singole</li>
+
+                                <li class="perk-item">Possibilità di inserire nuovi mebri nel team</li>
+
+                                <li class="perk-item">Gestione dei permessi in base ai ruoli</li>
+                            </ul>
+                        </div>                            
+                    </div>
+
+                    <div class="card">
+                        <div class="pack">
+                            <i class="fa-sharp fa-solid fa-building"></i><span>Azienda</span>
+                        </div>
+                        <div class="card-small-container">
+                            <div class="pack-name">
+                                <h2>Enterprise</h2>
+                                <h4>Contattaci</h4>
+                                <div>-</div>                                
+                            </div>
+
+                            <div class="pack-info">
+                                <div class="pack-info-item">
+                                    <i class="fa-solid fa-user"></i>
+                                    <span>10 o più utenti</span>
+                                </div>
+
+                                <div class="pack-info-item">
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span>Soluzioni personalizzabili per la tua azienda</span>
+                                </div>
+
+                                <div class="pack-info-item">
+                                    <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                                    <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                                </div>
+                            </div>
+
+                            <div class="free-trial-button">
+                                <button>Prova gratis per 30 giorni</button>
+                            </div> 
+                            
+                            <div class="pack-apostille">
+                                oppure <a href="#">acquista ora</a>
+                            </div>
+
+                            <div class="divided">________</div>
+
+                            <ul class="perks-list"> <strong>Punti salienti del piano</strong>
+                                <li class="perk-item">Cartelle offline su dispositivi mobili</li>
+
+                                <li class="perk-item">Servizio assistenza 24/h</li>
+
+                                <li class="perk-item">Possibilità di personalizzazione totale</li>
+                            </ul>
+                        </div>                            
+                    </div>
+                </div>
+
             </section>
         </main>
-
     </body> 
 </html>
