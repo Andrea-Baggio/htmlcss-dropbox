@@ -136,6 +136,10 @@ header {
     padding: 30px 0px 10px;
 }
 
+.header-icon a {
+    color: black;
+}
+
 /* header image */
 
 .image {
@@ -326,4 +330,49 @@ main {
     padding: .5em .7em;
     background-color: white;
     border: 1px solid black;
+}
+
+/* main part 2 */
+
+.part2-container {
+    margin: auto;
+    margin-top: 120px;
+    max-width: 750px;
+}
+
+.part2-small-container {
+    margin-top: 30px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.application {
+    max-width: 30%;
+    min-width: 220px;
+    margin: auto;
+    /* flex: 1 1 auto; */
+}
+
+.application img {
+    width: 100%;
+}
+
+.application-text {
+    font-size: .7em;
+    margin-top: 20px;
+}
+
+.part2-text {
+    margin-top: 400px;
+}
+
+.part2-link {
+    margin: 30px 0;
+}
+
+.part2-link a {
+    font-size: .8em;
+    color: blue;
 }
