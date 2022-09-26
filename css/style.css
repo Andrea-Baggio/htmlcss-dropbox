@@ -342,7 +342,6 @@ main {
 
 .part2-small-container {
     margin-top: 30px;
-    height: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -364,12 +363,14 @@ main {
     margin-top: 20px;
 }
 
-.part2-text {
-    margin-top: 400px;
+.part2-text-container {
+    margin: auto;
+    margin-top: 170px;
+    max-width: 750px;
 }
 
 .part2-link {
-    margin: 30px 0;
+    margin: 35px 0;
 }
 
 .part2-link a {
