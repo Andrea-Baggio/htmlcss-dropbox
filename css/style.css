@@ -155,8 +155,8 @@ header {
 
 /* main */
 /* main part1 */
-main {
-    padding: 0 1em;
+#part1, #part2 {
+    padding: 0 1.5em;
 }
 
 .part1-container {
@@ -376,4 +376,151 @@ main {
 .part2-link a {
     font-size: .8em;
     color: blue;
+}
+
+/* main part3 */
+
+.part3-container {
+    background-color: rgb(180, 208, 231);
+    margin-top: 100px;
+    max-width: 1267px;
+}
+
+/* left */
+.part3-small-container {
+    height: fit-content;
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;  
+    
+}
+
+.part3-left {
+    height: 400px;
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part3-left-image {
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.part3-left-image img {
+    width: 100%;
+    padding: 55px;
+}
+
+.square1L {
+    background-color: rgba(162, 211, 155, 1);
+    border: 10px solid rgba(209, 233, 205, 1);
+}
+
+.square1L img {
+    padding: 45px;
+}
+
+.square2L {
+    background-color: rgba(97, 8, 43, 1);
+}
+
+.square3L {
+    background-color: rgba(0, 147, 206, 1);
+}
+
+.square4L {
+    background-color: rgba(255, 28, 28, 1);
+}
+
+/* center */
+
+.part3-center {
+    background-color: rgba(245, 245, 245, 1);
+    padding: 30px;
+    height: 400px;
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part3-center-container {
+    max-width: 100%;
+}
+
+.part3-center-image {
+    width: 50%;
+    height: 50px;
+}
+
+.part3-center-image img {
+    width: 100%;
+}
+
+.part3-center-text {
+    font-size: .7em;
+    margin-bottom: 30px;
+}
+
+/* right */
+
+.part3-right {
+    height: 400px;
+    width: 33.33%;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.part3-right-image {
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+
+.part3-right-image img {
+    width: 100%;
+    padding: 55px;
+}
+
+.square1R {
+    background-color: rgba(213, 0, 31, 1);
+}
+
+.square2R {
+    background-color: rgba(180, 208, 231, 1);
+}
+
+.square3R {
+    background-color: rgba(13, 36, 129, 1);
+}
+
+.square4R {
+    background-color: rgba(255, 216, 48, 1);
+}
+
+.part3-subtitle-container {
+    max-width: 50%;
+    margin: auto;
+    padding: 4.5em 0;
+    display: flex;
+}
+
+.part3-subtitle {
+    flex: 1 1 50%;
+    color: rgb(79, 0, 79);
+}
+
+.part3-subtitle-button {
+    height: fit-content;
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.part3-subtitle-button button {
+    background-color: white;
+    font-size: .8em;
+    padding: .5em 2em;
+    border: 1px solid white;
 }
