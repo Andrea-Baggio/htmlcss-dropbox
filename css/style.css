@@ -524,3 +524,37 @@ header {
     padding: .5em 2em;
     border: 1px solid white;
 }
+
+/* questions */
+.part3-questions-container {
+    max-width: 750px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.part3-questions-title {
+    border-bottom: 1px solid rgba(86, 86, 86, 0.452);
+    padding-bottom: 2em;
+}
+
+.part3-questions-small-container {
+    width: 95%;
+    display: flex;
+}
+
+.question {
+    flex: 1 1 auto;
+    padding: 2.5em 0;
+}
+
+.part3-questions-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    flex: 1 1 auto;
+}
+
+.part3-divided {
+    border-bottom: 1px solid rgba(86, 86, 86, 0.452);
+}
